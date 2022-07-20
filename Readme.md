@@ -2,6 +2,8 @@
 
 >> composer install
 
+>> composer update
+
 ### Run test
 
 >> vendor/bin/phpunit
