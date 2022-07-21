@@ -8,15 +8,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/style.css">
-    <title>Filtro</title>
+    <link rel="stylesheet" href="../assets/css/style.css">    
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Vender</title>
 </head>
 <body>
-    <div class="pag-filtro">
 
-        <h1 class="filtro">FILTROS BÚSQUEDA</h1>
+<?php include("./components/header.php"); ?>
+
+    <div class="pag-venta">
+
+        <h1 class="vent-titulo">SUBIR LIBRO</h1>
 
         <div class="formulario-venta">
+
+        
                 <form>
                     <label for="nom-libro"></label>
                     <input type="text" name="nom-libro" placeholder="Nombre del libro">
@@ -47,10 +53,48 @@
                         <option value="bueno">Buen estado</option>
                         <option value="regular">Regular</option>
                     </select>
-
-                    <div class="buscar">
-                        <button class="buscar-btn">BUSCAR</button>
-                    </div>
                 </form>
+        
+
+            <div class="venta">
+
+                
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <label class="input-lb" for="image-input">
+                            <span class="plus">+</span>
+                            <p>Agregar Portada</p>
+                        <input class="cov-btn" type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+                        </label>
+                    </div>
+                </div>
+
+
+
+                <div class="cover">
+                    <div id="display-image"></div>
+                </div>  
+            </div>
+        </div>
+
+            <div class="primary-btn">
+                <button class="sub-btn" type="submit">Subir</button>
+            </div>
+    </div>
+
+    <script>
+
+        const image_input = document.querySelector("#image-input");
+        image_input.addEventListener("change", function() {
+        const reader = new FileReader();
+        reader.addEventListener("load", () => {
+        const uploaded_image = reader.result;
+        document.querySelector("#display-image").style.backgroundImage = `url(${uploaded_image})`;
+        });
+        reader.readAsDataURL(this.files[0]);
+        });
+
+    </script>
+
 </body>
 </html>
