@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-07-2022 a las 09:19:53
+-- Tiempo de generación: 21-07-2022 a las 11:46:48
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -29,10 +29,11 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `libros` (
   `id` int(11) NOT NULL,
-  `bockname` varchar(255) NOT NULL,
+  `bookname` varchar(255) NOT NULL,
   `author` varchar(255) NOT NULL,
   `gender` varchar(255) NOT NULL,
-  `ibsn` varchar(255) NOT NULL,
+  `isbn` varchar(255) NOT NULL,
+  `description` text NOT NULL,
   `price` float NOT NULL,
   `bookstate` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -41,8 +42,8 @@ CREATE TABLE `libros` (
 -- Volcado de datos para la tabla `libros`
 --
 
-INSERT INTO `libros` (`id`, `bockname`, `author`, `gender`, `ibsn`, `price`, `bookstate`) VALUES
-(1, 'la busqueda imposible', 'aitor busqueda', 'hombre', '9781234567897\r\n', 25.5, 'usado');
+INSERT INTO `libros` (`id`, `bookname`, `author`, `gender`, `isbn`, `description`, `price`, `bookstate`) VALUES
+(1, 'la busqueda imposible', 'aitor busqueda', 'hombre', '9781234567897\r\n', '', 25.5, 'usado');
 
 --
 -- Índices para tablas volcadas
