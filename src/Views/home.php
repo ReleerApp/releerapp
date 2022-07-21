@@ -14,18 +14,8 @@
   
 </head>
 <body>
+<?php include("./components/header.php"); ?>
 
-<header class="header">
-  <div>
-    <img class="img-logo-header" src="../img/logo-navbar.png" alt="logo"></img>
-  </div>
-  <div class="div-header">
-              <input class= "input-navbar" type="text" value="  Buscar..."></input>
-              <button class= "button-publicar"> + Publique su anuncio</button>
-              <button class= "button-filtros">   Filtros</button>
-
-  </div>
-</header>
     <main>
         <div class="div-img-informacion">
             <img class="img-informacion" src="../img/importancia-de-leer.png" alt="banner"/>
@@ -47,133 +37,15 @@
             </div>
           </div>
         </div>
+   
+    <div class="footer">
+      <div>
+        <img class="logo-footer" alt="logo-footer" src="../img/logo-navbar.png"/>
+      </div>
+</div>
     </main>
 
 
-
-
-    <div class="container-books">
-          <div class="book-box">
-            <div class="div-img-box">
-              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
-            </div>
-            <div class=info-box>
-              <p class="titulo-box">Maestra</p>
-              <p class="autor-box">LS Hilton</p>
-              <p class="titulo-box">10€</p>
-            </div>
-          </div>
-
-
-
-
-          <div class="book-box">
-            <div class="div-img-box">
-              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
-            </div>
-            <div class=info-box>
-              <p class="titulo-box">Maestra</p>
-              <p class="autor-box">LS Hilton</p>
-              <p class="titulo-box">10€</p>
-            </div>
-          </div>
-
-
-
-
-          <div class="book-box">
-            <div class="div-img-box">
-              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
-            </div>
-            <div class=info-box>
-              <p class="titulo-box">Maestra</p>
-              <p class="autor-box">LS Hilton</p>
-              <p class="titulo-box">10€</p>
-            </div>
-          </div>
-
-
-
-
-          <div class="book-box">
-            <div class="div-img-box">
-              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
-            </div>
-            <div class=info-box>
-              <p class="titulo-box">Maestra</p>
-              <p class="autor-box">LS Hilton</p>
-              <p class="titulo-box">10€</p>
-            </div>
-          </div>
-
-
-
-
-          <div class="book-box">
-            <div class="div-img-box">
-              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
-            </div>
-            <div class=info-box>
-              <p class="titulo-box">Maestra</p>
-              <p class="autor-box">LS Hilton</p>
-              <p class="titulo-box">10€</p>
-            </div>
-          </div>
-
-
-
-
-          <div class="book-box">
-            <div class="div-img-box">
-              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
-            </div>
-            <div class=info-box>
-              <p class="titulo-box">Maestra</p>
-              <p class="autor-box">LS Hilton</p>
-              <p class="titulo-box">10€</p>
-            </div>
-          </div>
-
-
-          <div class="book-box">
-            <div class="div-img-box">
-              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
-            </div>
-            <div class=info-box>
-              <p class="titulo-box">Maestra</p>
-              <p class="autor-box">LS Hilton</p>
-              <p class="titulo-box">10€</p>
-            </div>
-          </div>
-
-
-
-
-
-
-          <div class="book-box">
-            <div class="div-img-box">
-              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
-            </div>
-            <div class=info-box>
-              <p class="titulo-box">Maestra</p>
-              <p class="autor-box">LS Hilton</p>
-              <p class="titulo-box">10€</p>
-            </div>
-          </div>
-
-
-          
-        </div>
-    </main>
-
-
-
-
-    
-
-
-    
 
 </body>
 </html>
