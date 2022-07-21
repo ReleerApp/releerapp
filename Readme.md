@@ -1,6 +1,7 @@
 ## Installation
 
 >> composer install
+>> composer update
 
 ### Run test
 
