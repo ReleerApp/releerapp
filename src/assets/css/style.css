@@ -1,7 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Poppins&display=swap');
 
 /*header*/
-
+*{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
 
 .header{
     position: absolute;
@@ -169,6 +172,7 @@ color: #374364;
 .titulo-resultados{
     text-align: center;
     margin-top:100px;
+    font-weight: bold;
 
 }
 
@@ -217,7 +221,54 @@ color: #374364;
 }
 
 
+/*Detalle del libro*/
+.container-detail{
+    display: flex;
+    
 
+margin-top: 75px;
+margin-left: 220px;
+margin-right:220px;
+
+
+}
+
+.div-imagen-detail{
+    width: 1500px;
+    height: 500px;
+
+}
+
+.imagen-detail{
+    width: 100%;
+    height: 100%;
+}
+
+.box-info-detail{
+    margin-left:40px;
+    padding: 0px;
+    color:#374364;
+    font-size: 18px;
+   
+}
+.emoticonos{
+    cursor: pointer;
+}
+
+
+
+.titulo-detail{
+    font-weight: bolder;
+}
+
+.button-detail{
+background: #00C037;
+border-radius: 71px;
+color: white;
+border:none;
+width: 250px;
+height: 50px;
+}
 
 
 @media (max-width: 600px) { 
@@ -229,9 +280,7 @@ color: #374364;
         
     }
 
-    .div-header{
-       
-    }
+   
 
     .div-img-informacion{
         src:"../img/bannerresponsive.png";
