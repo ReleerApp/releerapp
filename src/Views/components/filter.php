@@ -12,10 +12,9 @@
     <title>Filtro</title>
 </head>
 <body>
-    <?php include("./components/header.php"); ?>
     <div class="pag-filtro">
 
-        <h1 class="vent-titulo filtro">FILTROS BÚSQUEDA</h1>
+        <h1 class="filtro">FILTROS BÚSQUEDA</h1>
 
         <div class="formulario-venta">
                 <form>

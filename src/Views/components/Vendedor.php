@@ -12,12 +12,13 @@
     <title>Vender</title>
 </head>
 <body>
-    <?php include("./components/header.php"); ?>
     <div class="pag-venta">
 
         <h1 class="vent-titulo">SUBIR LIBRO</h1>
 
         <div class="formulario-venta">
+
+        
                 <form>
                     <label for="nom-libro"></label>
                     <input type="text" name="nom-libro" placeholder="Nombre del libro">

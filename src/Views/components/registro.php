@@ -9,7 +9,6 @@
     <title>Registro</title>
 </head>
 <body>
-    <?php include("./components/header.php"); ?>
 <div class="pag-reg">
     <h1 class="reg-titulo">REGISTRO</h1>
 
