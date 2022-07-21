@@ -12,6 +12,9 @@
     <title>Vender</title>
 </head>
 <body>
+
+<?php include("./components/header.php"); ?>
+
     <div class="pag-venta">
 
         <h1 class="vent-titulo">SUBIR LIBRO</h1>
