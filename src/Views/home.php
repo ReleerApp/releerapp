@@ -38,13 +38,13 @@
           </div>
 
          
-        </div>
-   
+
         
  
     </main>
-
-
+    <footer class="footer">
+    <p>hello</p>
+</footer>
 
 </body>
 </html>

@@ -270,6 +270,16 @@ width: 250px;
 height: 50px;
 }
 
+/*footer*/
+
+.footer{
+    position:fixed;
+    background-color:#374364;;
+    bottom: 0%;
+    right: 0%;
+    left:0%;
+    top: 97%;
+}
 
 @media (max-width: 600px) { 
     .container-books{
