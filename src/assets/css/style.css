@@ -271,13 +271,37 @@ height: 50px;
 }
 
 .logo{
-    margin-left: 50%;
-    margin-top: 20%;
+    margin-left: 43%;
+    margin-top: 5%;
+    height: 230px;
+    width: 200px;
  }
 
- .buttonwelcome{
-     color: #00C037;
+.buttonwelcome1{
+    background-color: #00C037;
+    color: white;
+    border-radius: 25px;
+    font-size: 32px;
+    margin-right: 8px;
  }
+
+ .buttonwelcome2{
+    background-color: #00C037;
+    color: white;
+    border-radius: 25px;
+    font-size: 32px;
+    margin-left: 8px;
+ }
+
+ .frase {
+    margin-left: 40%;
+    font-size: 20px;
+    font-style: italic;
+ }
+
+.center-logo {
+    margin-left: 30%;
+}
 
 @media (max-width: 600px) { 
     .container-books{
