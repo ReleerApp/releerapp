@@ -15,7 +15,7 @@
 
 <body>
     <main class="prueba">
-    <img class= "logo" src="src/img/logoreleer.png">
+    <img class= "logo" src="../img/logoreleer.png">
     <h3>Reutiliza tu conocimiento</h3>
     <button type="button" class="buttonwelcome" href=".../src/Views/home.php">Quiero comprar</button>
     <button type="button" class="buttonwelcome" href=".../src/Views/vender.php">Quiero vender</button>
