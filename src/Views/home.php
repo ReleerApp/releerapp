@@ -18,7 +18,7 @@
 
     <main>
         <div class="div-img-informacion">
-            <img class="img-informacion" src="../img/importancia-de-leer.png" alt="banner"/>
+            <img class="img-informacion" src="../img/banner.png" alt="banner"/>
         </div>
 
         <div class="subidos-recientemente">
@@ -36,13 +36,12 @@
               <p class="titulo-box">10€</p>
             </div>
           </div>
+
+         
         </div>
    
-    <div class="footer">
-      <div>
-        <img class="logo-footer" alt="logo-footer" src="../img/logo-navbar.png"/>
-      </div>
-</div>
+        
+ 
     </main>
 
 

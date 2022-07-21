@@ -163,6 +163,90 @@ color: #374364;
 
 
 
+/*pagina RESULTADOS*/
+
+
+.titulo-resultados{
+    text-align: center;
+    margin-top:100px;
+
+}
+
+.book-box-resultados{
+    width: 200px;
+    height: 280px;
+    margin-left: 75px;
+    border: 1px solid #969696;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.div-img-box-resultados{
+    height: 150px;
+    width: 200px;
+}
+
+.img-box-resultados{
+    height:100%;
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.info-box-resultados{
+    
+    height: 50px;
+   
+   
+    text-align: left;
+    padding-left: 20px;
+    text-overflow: ellipsis; 
+    
+    
+
+    
+}
+
+.titulo-box-resultados{
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #374364;
+}
+
+
+
+
+
+@media (max-width: 600px) { 
+    .container-books{
+       
+        display: grid;
+        grid-template-columns: repeat(2);
+    
+        
+    }
+
+    .div-header{
+       
+    }
+
+    .div-img-informacion{
+        src:"../img/bannerresponsive.png";
+    }
+    .input-navbar{
+        width: 60px;
+    }
+    .button-publicar{
+        font-size: 10px;
+    }
+    .button-filtros{
+        font-size: 10px;
+    }
+}
+
 
 
 
