@@ -229,8 +229,18 @@ color: #374364;
         
     }
 
-    .div-header{
-       
+    .prueba {
+        background-color: red;
+    }
+
+    .logo{
+       margin-left: 50%;
+       margin-top: 20%;
+    }
+
+    .buttonwelcome{
+        background-color: #00C037;
+        color: white;
     }
 
     .div-img-informacion{
