@@ -282,6 +282,15 @@ height: 50px;
 }
 
     /*welcome*/
+.container-welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:10%;
+}
+
+
+
 .logo{
     margin-left: 43%;
     margin-top: 5%;
@@ -293,16 +302,21 @@ height: 50px;
     background-color: #00C037;
     color: white;
     border-radius: 25px;
-    font-size: 32px;
+    font-size: 30px;
     margin-right: 8px;
+    border:none;
+    width: 300px;
  }
 
  .buttonwelcome2{
     background-color: #00C037;
     color: white;
     border-radius: 25px;
-    font-size: 32px;
+    font-size: 30px;
     margin-left: 8px;
+    border:none;
+    width: 300px;
+  
  }
 
  .frase {
@@ -335,6 +349,19 @@ height: 50px;
     }
     .button-filtros{
         font-size: 10px;
+    }
+    .container-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        margin-left: 0px;
+        
+    }
+    .div-imagen-detail{
+        width: 350px;
+        height: 250px;
+    
     }
 }
 
