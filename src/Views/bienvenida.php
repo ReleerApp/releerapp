@@ -14,13 +14,17 @@
 </head>
 
 <body>
+<div class="container-welcome">
+    <div>
     <img class= "logo" src="../img/logoreleer.png">
+    </div>
     <div class= "frase">
     <h3>Reutiliza tu conocimiento</h3>
     </div>
     <div class=center-logo>
     <button type="button" class="buttonwelcome1" href=".../src/Views/home.php">Quiero comprar</button>
     <button type="button" class="buttonwelcome2" href=".../src/Views/vender.php">Quiero vender</button>
+    </div>
 </div>
 </body>
 
