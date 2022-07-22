@@ -6,9 +6,7 @@
     require_once("Components/header.php");
 ?>
 
-<a href="?action=create">
-    <button type="button" class="btn btn-primary">crear nuevo libro</button>
-</a>
+ 
 
 
  
@@ -36,6 +34,8 @@
                     <a href='?action=delete&id=$id'>
                         <button type='button' class='btn btn-primary'>D</button>
                     </a>
+
+                    
                 </div> 
                 <div class='card-body '> 
                     <p class='card-text'>$price</p>
@@ -43,6 +43,11 @@
                     <p class ='card-date'>$bookstate</p>
 
                 </div>
+                <form action='?action=store=$bookname'>
+                <label for='nom-libro'></label>
+              <input type='text' name='bookname' id='id' placeholder='Nombre del libro'>
+              <button type='submit' class='btn btn-primary'>crear nuevo libro</button>
+              </form>
             </div>  
       
         

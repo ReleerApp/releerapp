@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use __PHP_Incomplete_Class;
 use App\Models\Book;
 use App\Core\View;
 
@@ -10,6 +11,8 @@ class BooksController
 
     public function __construct()
     {
+        var_dump($_GET);
+
         if (isset($_GET['action']) && $_GET['action'] == 'delete') {
             $this->delete($_GET['id']);
             return;
@@ -42,7 +45,7 @@ class BooksController
 
     public function create()
     {
-        new View('form', ["action" => 'store']);
+        new View('vencedor', ["action" => 'store']);
     }
 
     public function store(array $request)

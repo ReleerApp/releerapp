@@ -47,7 +47,10 @@ class Book{
                 $book["price"]);
                 array_push($bookList, $bookItem);
         }
+        
         return $bookList;
+        
+        
 
     }
 
@@ -56,6 +59,7 @@ class Book{
     }
     public function getBookname(){
         return $this->bookname;
+        
     }
     public function getAuthor(){
         return $this->author;
@@ -93,6 +97,7 @@ class Book{
 
 
     public function saveBook(){
-        $query = $this->database->getConnection()->query("INSERT INTO {$this->table}('name', 'phone', 'email', 'user_query')values($this->name, $this->phone, $this->email, $this->user_query)");
+        $query = $this->database->getConnection()->query("INSERT INTO {$this->table}('id', 'bookname', 'author', 'gender')values($this->name, $this->bookname, $this->author, $this->gender)");
+        $this->database->table->query($query);
     }
 }

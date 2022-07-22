@@ -21,13 +21,16 @@
         <h1 class="vent-titulo">SUBIR LIBRO</h1>
 
         <div class="formulario-venta">
-
+            
+            <a href="?action=about">About</a>
+            <a href="?action=create">Add bookname</a>
         
-                <form>
-                    <label for="nom-libro"></label>
-                    <input type="text" name="nom-libro" placeholder="Nombre del libro">
+                <form action="?action=store" method="post">
+                    <label for="bookname"></label>
+                    <input type="text" name="bookname" id="bookname" placeholder="Nombre del libro">
+                    
 
-                    <label for="nom-autor"></label>
+                    <!-- <label for="nom-autor"></label>
                     <input type="text" name="nom-autor" placeholder="Nombre del autor">
 
                     <label for="genero"></label>
@@ -52,8 +55,11 @@
                         <option value="muy-bueno">Muy buen estado</option>
                         <option value="bueno">Buen estado</option>
                         <option value="regular">Regular</option>
-                    </select>
+                    </select> -->
+                    <button class="sub-btn" type="submit">Subir</button>
+                  
                 </form>
+                
         
 
             <div class="venta">
