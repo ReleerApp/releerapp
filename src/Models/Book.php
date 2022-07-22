@@ -10,21 +10,26 @@ class Book{
     private string $author;
     private string $gender;
     private string $isbn;
+    private string $description;
     private ?string $price;
     private ?string $bookstate;
+    private string $img;
+    
 
 
     private $database;
     private $table ="libros";
 
-    public function __construct(int $id = null, string $bookname = "", string $author = "", string $gender = "", string $isbn = "", string $price ="", string $bookstate=""){
+    public function __construct(int $id = null, string $bookname = "", string $author = "", string $gender = "", string $isbn = "", string $description="", string $price ="", string $bookstate="", string $img=""){
         $this->id = $id;
         $this->bookname = $bookname;
         $this->author = $author;
         $this->gender = $gender;
         $this->isbn = $isbn;
+        $this->description = $description;
         $this->price = $price;
         $this->bookstate = $bookstate;
+        $this->img = $img;
 
         if (!$this->database){
             $this->database = new Database();
@@ -44,6 +49,9 @@ class Book{
                 $book["author"],
                 $book["gender"],
                 $book["isbn"],
+                $book["description"],
+                $book["bookstate"],
+                $book["img"],
                 $book["price"]);
                 array_push($bookList, $bookItem);
         }
@@ -66,12 +74,19 @@ class Book{
     public function getIsbn(){
         return $this->isbn;
     }
+    public function getDescription(){
+        return $this->isbn;
+    }
+    public function getBookstate(){
+        return $this->isbn;
+    }
+    public function getImg(){
+        return $this->isbn;
+    }
     public function getPrice(){
         return $this->price;
     }
-    public function getBookstate(){
-        return $this->bookstate;
-    }
+  
 
     public function findById($itemId){
         $query = $this->database->getConnection()->query("SELECT * FROM {$this->table} WHERE id={$itemId}"); 
@@ -82,7 +97,10 @@ class Book{
             $result[0]["author"],
             $result[0]["gender"],
             $result[0]["isbn"],
-            $result[0]["date_time"]);
+            $result[0]["description"],
+            $result[0]["bookstate"],
+            $result[0]["img"],
+            $result[0]["price"]);
 
     }
 
@@ -93,6 +111,6 @@ class Book{
 
 
     public function saveBook(){
-        $query = $this->database->getConnection()->query("INSERT INTO {$this->table}('name', 'phone', 'email', 'user_query')values($this->name, $this->phone, $this->email, $this->user_query)");
+        $query = $this->database->getConnection()->query("INSERT INTO {$this->table}('bookname', 'author', 'gender', 'isbn', 'description', 'bookstate', 'img', 'price' )values($this->bookname, $this->author, $this->gender, $this->isbn, $this->description, $this->bookstate, $this->img, $this->price)");
     }
 }

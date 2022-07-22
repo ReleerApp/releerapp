@@ -3,7 +3,7 @@
 <body>
 
 <?php
-    require_once("Components/header.php");
+    require_once("components/header.php");
 ?>
 
 <a href="?action=create">
@@ -19,6 +19,7 @@
         $id = $book->getId();
         $bookname = $book->getBookname();
         $author= $book->getAuthor();
+        $isbn = $book->getIsbn();
         $isbn = $book->getIsbn();
         $price = $book->getPrice();
         $bookstate = $book->getBookstate();
