@@ -106,7 +106,7 @@ color: white;
     position: absolute;
     top:500px;
     left: 9%;
-    width: 1200px;
+    width: 500px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;

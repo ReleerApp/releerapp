@@ -34,8 +34,17 @@
               <p class="titulo-box">Maestra</p>
               <p class="autor-box">LS Hilton</p>
               <p class="titulo-box">10€</p>
-            </div>
           </div>
+           <div class="book-box">
+            <div class="div-img-box">
+              <img class="img-box" src="../img/portada.jpg" alt="imagen libro"/>
+            </div>
+            <div class=info-box>
+              <p class="titulo-box">Maestra</p>
+              <p class="autor-box">LS Hilton</p>
+              <p class="titulo-box">10€</p>
+          </div>
+        </div>
 
          
 
